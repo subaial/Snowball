@@ -86,6 +86,59 @@
       font-size: 40px;
     }
   }
+  
+  
+  .logg-inn h1{
+      font-size: 35px;
+  
+  }
+  
+  .textbox {
+      margin: 10px; 
+  }
+  
+  .textbox input{
+      width: 290px;
+      height: 40px;
+      border-radius: 5px;
+      border-width: 0px;
+  }
+  
+  input,
+  input::-webkit-input-placeholder {
+      font-size: 15px;
+      line-height: 3;
+      padding: 0 3px;
+  }
+  
+  
+  .btn{
+      width: 100px;
+      height: 35px;
+      font-size: 14px;
+      border-radius: 5px;
+      border-width: 0px;
+      margin-top: 18px;
+  }
+  
+  .checkbox input{
+    display: block;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .logo h2{
+      font-size: 40px;
+    }
+    body{
+      height: 100vh;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .logo h2{
+      font-size: 40px;
+    }
+  }
 
 
 
