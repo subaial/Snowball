@@ -4,6 +4,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+	
+	 color: snow;
+     display: flex;
+     position: relative;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
 }
 .logo h2{
     font-size: 55px;
@@ -62,7 +69,11 @@ color: white;
     display: block;
     background-color: rgb(241, 238, 35);
 }
-
+ @media screen and (max-width: 450px) {
+	
 }
+  @media screen and (max-width: 750px) {
+	  
+  }
 
 
