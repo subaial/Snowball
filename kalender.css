@@ -1,13 +1,11 @@
-*{
+body{
     margin: 0%;
     padding: 0%;
+    background-image: url(pilestredet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
-
-header{
-margin: 0%;
-padding: 0%;
-}
-
 .logo h2{
     font-size: 55px;
     top: 0%;
