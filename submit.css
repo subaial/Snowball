@@ -43,7 +43,12 @@ body{
   }
 
   .btn{
-    width: 350px;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 55px;
     height: 80px;
-    font-size: 20px;
-    background-color: rgb(241, 238, 35);
+    font-size: 22px;
+    border-radius: 8px;
+    border-right: 0px;
+    background-color: white;
