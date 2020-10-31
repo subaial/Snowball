@@ -85,6 +85,16 @@ body{
     border-width: 0px;
     background-color:rgb(229, 226, 226);
 }
-
+  @media screen and (max-width: 750px) {
+    .logo h2{
+      font-size: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .logo h2{
+      font-size: 40px;
+    }
+  }
 
 
