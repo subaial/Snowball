@@ -68,7 +68,7 @@
         opacity: 1;
       }
   
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 770px) {
     .logo h2{
       font-size: 40px;
     }
@@ -81,4 +81,8 @@
     .logo h2{
       font-size: 40px;
     }
+	    body{
+      height: 125vh;
+    }
+
   }
