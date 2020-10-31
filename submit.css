@@ -52,3 +52,14 @@ body{
     border-radius: 8px;
     border-right: 0px;
     background-color: white;
+  }
+    @media screen and (max-width: 770px) {
+    body{
+      height: 100vh;
+    }
+  }
+    @media screen and (max-width: 500px) {
+    body{
+      height: 120vh;
+    }
+  }
