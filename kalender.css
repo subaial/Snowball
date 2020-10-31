@@ -87,7 +87,7 @@ body{
     border-width: 0px;
     background-color:rgb(229, 226, 226);
 }
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 770px) {
     .logo h2{
       font-size: 40px;
     }
@@ -97,7 +97,7 @@ body{
 	img{
     width: 60%;
 }
-.btn{
+	.btn{
     width: 300px;
 
 	}
