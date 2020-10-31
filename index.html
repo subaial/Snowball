@@ -3,50 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pilestredet Ungdomsskole</title>
+    <title>AbsenceTaker - Fraværsmelding</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<header>
+    <img src="absencetaker.png" width="200" height="190" class="center"> 
     <div class="logo">
-        <h2>Pilestredet <br> Ungdomsskole</h2>
+<h2>Fraværssystem</h2>
     </div>
-    <div class="tittel">
-        <h3>Fraværsmelding</h3>
+</header>
 
+<body>
     </div>
-<div class="logg-inn">
-<h1>
-    Logg inn
-</h1>
-<div class="textbox">
-    <input type="text" placeholder="Student-ID" name="studentid">
-
-</div>
-
-<div class="textbox">
-    <input type="text" placeholder="Passord" name="Passord" id="myInput">
-</div>
-<div class="log">
-    <a href="kalender.html">	<input class="btn" type="button" name="Logg inn" value="Logg inn" ></a>
+    <div class="bg-img">
+        <form action="/action_page.php" class="container">
+          <h1>Logg inn</h1>
       
+          <label for="email"><b>Student-ID</b></label>
+          <input type="text" placeholder="Student-ID" name="studentid" required>
+      
+          <label for="psw"><b>Passord</b></label>
+          <input type="password" placeholder="Passord" name="psw" required>
+      
+          <a href="kalender.html"><button type="button" class="btn">Login</button></a>
+        </form>
+      </div>
 
-
-
-    <div>
-        <input type="checkbox" onclick="myFunction()">Vis Passord
-        <script>
-            function myFunction() {
-              var x = document.getElementById("myInput");
-              if (x.type === "password") {
-                x.type = "text";
-              } else {
-                x.type = "password";
-              }
-            }
-            </script>
-    </div>
-
-</div>  
+  
 </body>
 </html>
