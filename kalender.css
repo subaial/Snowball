@@ -37,8 +37,6 @@ img{
 }
 
 body{
-    margin: 0%;
-    padding: 0%;
 	background-image: url(bildet2.jpg);
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -83,7 +81,7 @@ body{
     font-size: 15px;
     padding:  0.4em;
     padding-bottom:190px;
-    width: 70%;
+    width: 50%;
     height: 10px;
     border-radius: 9px;
     border-width: 0px;
@@ -96,12 +94,18 @@ body{
 	.textbox input{
 		width: 90%;
 	}
+	img{
+    width: 60%;
+}
   }
   
   @media screen and (max-width: 450px) {
     .logo h2{
       font-size: 40px;
     }
+		img{
+    width: 70%;
+}
   }
 
 
