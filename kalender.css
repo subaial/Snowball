@@ -79,7 +79,7 @@ body{
     font-size: 15px;
     padding:  0.4em;
     padding-bottom:190px;
-    width: 80%;
+    width: 70%;
     height: 10px;
     border-radius: 9px;
     border-width: 0px;
@@ -89,6 +89,9 @@ body{
     .logo h2{
       font-size: 40px;
     }
+	.textbox input{
+		width: 90%;
+	}
   }
   
   @media screen and (max-width: 450px) {
