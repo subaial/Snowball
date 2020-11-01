@@ -51,7 +51,8 @@ body{
     font-size: 22px;
     border-radius: 8px;
     border-right: 0px;
-    background-color: white;
+    background-color: 	rgb(251, 213, 111);
+	cursor: pointer;
   }
     @media screen and (max-width: 770px) {
     body{
