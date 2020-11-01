@@ -61,5 +61,8 @@ h2{
   body{
     height: 120vh;
   }
+  .logo h1{
+	  font-size: 40px;
+  }
 }
 
